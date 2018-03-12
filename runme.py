@@ -1,7 +1,6 @@
 # jmiu CS4308
 
 import json
-import os
 import Book
 
 
@@ -9,10 +8,6 @@ command = ''
 commandList = ['add_book', 'remove_book',  'edit_book', 'print_books']
 editsList = ['author', 'title',  'pages']
 bookList = []
-
-def cls():
-	os.system('cls' if os.name=='nt' else 'clear')
-	print('(c) 2017 Snep Corporation. All rights reserved.\n')
 
 def add_book() :
 	author = input('         author>')
@@ -86,36 +81,6 @@ def take_input() :
 	else :
 		print ('error: command not in command list!')
 
-#startup()
 load_books()
 while True:
 	take_input()
-#
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
