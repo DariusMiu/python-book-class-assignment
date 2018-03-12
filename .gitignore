@@ -1,0 +1,3 @@
+# why are these even a thing
+*.pyc
+__pycache__
