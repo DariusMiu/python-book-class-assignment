@@ -1,0 +1,142 @@
+# jmiu CS4308
+D:\Dropbox\python-book-class-assignment>python runme.py
+
+[0]add_book
+[1]remove_book
+[2]edit_book
+[3]print_books
+
+enter your command below or enter a number from the list.
+>3
+
+[0]author:Leeroy Jenkins title:At Least I Have Chicken pages:1337
+[1]author:mow title:1 pages:1
+[2]author:2 title:2 pages:2
+
+[0]add_book
+[1]remove_book
+[2]edit_book
+[3]print_books
+
+enter your command below or enter a number from the list.
+>0
+
+         author>hi
+          title>this is bob
+number of pages>103
+
+[0]add_book
+[1]remove_book
+[2]edit_book
+[3]print_books
+
+enter your command below or enter a number from the list.
+>3
+
+[0]author:Leeroy Jenkins title:At Least I Have Chicken pages:1337
+[1]author:mow title:1 pages:1
+[2]author:2 title:2 pages:2
+[3]author:hi title:this is bob pages:103
+
+[0]add_book
+[1]remove_book
+[2]edit_book
+[3]print_books
+
+enter your command below or enter a number from the list.
+>2
+
+[0]author:Leeroy Jenkins title:At Least I Have Chicken pages:1337
+[1]author:mow title:1 pages:1
+[2]author:2 title:2 pages:2
+[3]author:hi title:this is bob pages:103
+
+what book would you like to edit? (please enter a number!)
+>3
+
+[0]author
+[1]title
+[2]pages
+
+what attribute would you like to edit?
+>0
+
+enter new value for author>Bob
+
+[0]add_book
+[1]remove_book
+[2]edit_book
+[3]print_books
+
+enter your command below or enter a number from the list.
+>2
+
+[0]author:Leeroy Jenkins title:At Least I Have Chicken pages:1337
+[1]author:mow title:1 pages:1
+[2]author:2 title:2 pages:2
+[3]author:Bob title:this is bob pages:103
+
+what book would you like to edit? (please enter a number!)
+>3
+
+[0]author
+[1]title
+[2]pages
+
+what attribute would you like to edit?
+>1
+
+enter new value for title>hi
+
+[0]add_book
+[1]remove_book
+[2]edit_book
+[3]print_books
+
+enter your command below or enter a number from the list.
+>3
+
+[0]author:Leeroy Jenkins title:At Least I Have Chicken pages:1337
+[1]author:mow title:1 pages:1
+[2]author:2 title:2 pages:2
+[3]author:Bob title:hi pages:103
+
+[0]add_book
+[1]remove_book
+[2]edit_book
+[3]print_books
+
+enter your command below or enter a number from the list.
+>1
+
+[0]author:Leeroy Jenkins title:At Least I Have Chicken pages:1337
+[1]author:mow title:1 pages:1
+[2]author:2 title:2 pages:2
+[3]author:Bob title:hi pages:103
+
+index to remove>2
+
+[0]add_book
+[1]remove_book
+[2]edit_book
+[3]print_books
+
+enter your command below or enter a number from the list.
+>3
+
+[0]author:Leeroy Jenkins title:At Least I Have Chicken pages:1337
+[1]author:mow title:1 pages:1
+[2]author:Bob title:hi pages:103
+
+[0]add_book
+[1]remove_book
+[2]edit_book
+[3]print_books
+
+enter your command below or enter a number from the list.
+>Traceback (most recent call last):
+  File "runme.py", line 92, in <module>
+    take_input()
+  File "runme.py", line 80, in take_input
+    command = input('>')
+KeyboardInterrupt
